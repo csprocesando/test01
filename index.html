@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="container mb-5">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-text" href="#">
+            <img src="img/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Susan M Consultorias
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">COLORAÇÃO PESSOAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead" href="#">CONSULTORIA DE IMAGEM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead" href="#">LOJA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lead" href="#">CONTATO</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container mb-5">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="carouselHeight" style="height: 20em;">
+        <div class="carousel-item h-100 active" data-bs-interval="10000"
+          style="background-image: url(img/imgCarousel01.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <!--<img src="img/imgCarousel01.jpeg" class="d-block w-100" alt="...">-->
+        </div>
+        <div class="carousel-item h-100" data-bs-interval="2000"
+          style="background-image: url(img/imgCarousel02.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <!--<img src="img/imgCarousel02.jpeg" class="d-block w-100" alt="...">-->
+        </div>
+        <div class="carousel-item h-100"
+          style="background-image: url(img/imgCarousel03.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <!--<img src="img/imgCarousel03.jpeg" class="d-block w-100" alt="...">-->
+        </div>
+        <div class="carousel-item h-100 " data-bs-interval="10000"
+          style="background-image: url(img/imgCarousel04.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <!--<img src="img/imgCarousel04.jpeg" class="d-block w-100" alt="...">-->
+        </div>
+        <div class="carousel-item h-100 " data-bs-interval="10000"
+          style="background-image: url(img/imgCarousel05.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <!--<img src="img/imgCarousel05.jpeg" class="d-block w-100" alt="...">-->
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col mb-5" data-animate-effect="fadeIn">
+        <div class="card border-light" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus totam
+              deserunt mollitia, eveniet fugiat adipisci dolor nostrum, facilis sequi, hic enim ut quo doloremque odit!
+              Doloribus eligendi consectetur ad?</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5" data-animate-effect="fadeIn">
+        <div class="card border-light" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In iste ex pariatur quam,
+              architecto facilis magnam fuga. Consectetur, ullam? Animi illo, magni saepe id velit dicta consectetur cum
+              culpa nam?</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5" data-animate-effect="fadeIn">
+        <img src="img/imgGrid01.jpeg" class="d-block " style="width: 18rem;" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col mb-5 " data-animate-effect="fadeIn">
+        <div class="card" style="width: 18rem;">
+          <img src="img/cardExp01.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5 " data-animate-effect="fadeIn">
+        <div class="card" style="width: 18rem;">
+          <img src="img/cardExp02.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5 " data-animate-effect="fadeIn">
+        <div class="card" style="width: 18rem;">
+          <img src="img/cardExp03.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer id="fh5co-footer" role="contentinfo">
+    <div class="container">
+
+
+      <div class="row copyright">
+        <div class="col-md-12 text-center">
+          <p>
+            <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+            <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo
+              Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+          </p>
+          <!-- <p>
+          <ul class="fh5co-social-icons">
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+          </ul>
+          </p> -->
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap-5.2.2/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

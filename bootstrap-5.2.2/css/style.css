@@ -1,0 +1,17 @@
+/* Error: Expected whitespace.
+ *      ,
+ * 1201 |     @media screen and(max-width: $screen-sm){
+ *      |                      ^
+ *      '
+ *   test01/bootstrap-5.2.2/scss/style.scss 1201:19  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected whitespace.\a      \2577 \a 1201 \2502      @media screen and(max-width: $screen-sm){\a      \2502                       ^\a      \2575 \a   test01/bootstrap-5.2.2/scss/style.scss 1201:19  root stylesheet";
+}
